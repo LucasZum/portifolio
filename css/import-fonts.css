@@ -1,0 +1,24 @@
+@font-face {
+    font-family: bebas;
+    src: url('../06-fonts/BebasNeueBook-d9A1l.ttf');
+}
+@font-face {
+    font-family: bebasbook;
+    src: url('../06-fonts/BebasNeueBook-d9A1l.ttf');
+}
+@font-face {
+    font-family: bebasbold;
+    src: url('../06-fonts/BebasNeueBold-7B9LE.ttf');
+}
+@font-face {
+    font-family: montserrat;
+    src: url('../06-fonts/static/Montserrat-Regular.ttf');
+}
+@font-face {
+ font-family: opensansbold;
+ src: url('../06-fonts/OpenSans-ExtraBold.ttf');
+}
+@font-face {
+ font-family: opensans;
+ src: url('../06-fonts/OpenSans-VariableFont_wdth,wght.ttf'); 
+}
