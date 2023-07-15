@@ -22,6 +22,37 @@ html{
     height: 100vh;
 }
 
+.contact-btn{
+    position: fixed;
+    bottom: 0;
+    right: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    z-index: 2;
+    margin: 20px;
+    font-size: 50px;
+    border: 2px solid var(--primary-color);
+    border-radius: 50%;
+    width: 90px;
+    height: 90px;
+    background-color: var(--background-transparent);
+    backdrop-filter: blur(10px);
+}
+i{
+    color: var(--primary-color);
+}
+
+footer{
+    padding: 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: var(--textColor);
+    background-color: var(--background);
+    font-weight: 100;
+}
+
 .left-bar{
     width: 400px;
     
@@ -237,13 +268,16 @@ section{
         margin: 10px !important ;
     }
 }
-@media (max-width: 400px){
+@media (max-width: 500px){
 
     .cardTextImg{
         display: none  !important;
     }
     #cardTitle{
         font-size: 40px !important;
+    }
+    .number{
+        display: none;
     }
 }
 
